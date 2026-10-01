@@ -8,7 +8,12 @@ Este repositorio documenta el diseño inicial de una investigación **explorator
 ## Integrantes del grupo
 | Integrante | Legajo | Responsabilidad |
 |---|---|---|
-| _Pendiente_ | _Pendiente_ | _Pendiente_ |
+| _Abate, Matias Alessandro_ | _1152129_ | _Alumno_ |
+| _Ares Garcia, Juan Manuel _ | _1176654_ | _Alumno_ |
+| _Garberi, Tomas_ | _1116880_ | _Alumno_ |
+| _Molina, Facundo Roman_ | _1115862_ | _Alumno_ |
+| _Rubini, Lucas Franco_ | _1158539_ | _Alumno_ |
+| _Sorondo, Juan_ | _1157196_ | _Alumno_ |
 
 ## Pregunta de investigación
 **¿Cómo se asocian determinados indicadores socioeconómicos y demográficos a nivel estatal con la proporción de voto bipartidista demócrata en las elecciones generales presidenciales de EE. UU. entre 2012 y 2024?**
