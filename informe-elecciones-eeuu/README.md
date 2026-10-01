@@ -9,7 +9,7 @@ Este repositorio documenta el diseño inicial de una investigación **explorator
 | Integrante | Legajo | Responsabilidad |
 |---|---|---|
 | _Abate, Matias Alessandro_ | _1152129_ | _Alumno_ |
-| _Ares Garcia, Juan Manuel _ | _1176654_ | _Alumno_ |
+| _Ares Garcia, Juan Manuel_ | _1176654_ | _Alumno_ |
 | _Garberi, Tomas_ | _1116880_ | _Alumno_ |
 | _Molina, Facundo Roman_ | _1115862_ | _Alumno_ |
 | _Rubini, Lucas Franco_ | _1158539_ | _Alumno_ |
