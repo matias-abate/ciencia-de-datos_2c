@@ -10,7 +10,7 @@ El grupo conserva la responsabilidad sobre todas las decisiones metodológicas, 
 ## Registro de uso
 | Fecha | Herramienta | Finalidad | Verificación humana realizada |
 |---|---|---|---|
-| _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+| _29/09/2026_ | _Chat GPT_ | _Estudio y elaboracion_ | _Integrantes del grupo 1_ |
 
 ## Límites del uso de IA
 La asistencia de IA no reemplaza los resultados electorales oficiales, la documentación de ACS, las consignas de la materia ni el análisis propio del grupo. Las citas del trabajo final deberán apuntar a las fuentes originales, no a un sistema de IA.
