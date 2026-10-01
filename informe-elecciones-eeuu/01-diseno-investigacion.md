@@ -21,7 +21,21 @@ El estudio es **cuantitativo, observacional y exploratorio**, con observaciones 
 **Variables explicativas candidatas:** ingreso mediano de los hogares, proporción de población con título universitario, tasa de desempleo, proporción de población blanca no hispana y proporción de población de 65 años o más. Sus definiciones exactas y tablas de origen se detallan en `02-diccionario-datos.md`.
 
 ## 1.4 Estado del arte
-La literatura sobre comportamiento electoral suele considerar la composición socioeconómica, el nivel educativo, la edad y la composición racial o étnica como factores contextuales relevantes. Este proyecto aporta un ejercicio descriptivo y reproducible que combina resultados electorales oficiales con estimaciones oficiales del Census Bureau en una misma escala geográfica: el estado.
+La literatura sobre comportamiento electoral considera la composición socioeconómica, el nivel educativo, la edad y la composición racial o étnica como factores contextuales relevantes. Los antecedentes más directos para este trabajo son:
+
+- **Ingreso a nivel estatal vs. individual.** Gelman et al. (2008) muestran que, dentro de cada estado, los votantes de mayores ingresos tienden a votar más al Partido Republicano, mientras que los estados más ricos tienden a votar más al Partido Demócrata. Es el ejemplo de referencia de por qué un patrón estatal no puede trasladarse a las personas.
+- **Falacia ecológica.** Robinson (1950) demostró que una correlación calculada con datos agregados puede diferir, en magnitud e incluso en signo, de la correlación a nivel individual. Es la base metodológica de la limitación descripta en 1.2.
+- **Educación, edad y composición étnica del electorado.** Los estudios de votantes validados de Pew Research Center sobre 2020 y 2024 describen diferencias marcadas en el voto según nivel educativo, edad y grupo racial o étnico, y cambios entre ambas elecciones (Pew Research Center, 2021; 2025). Estas dimensiones justifican la elección de `bachelors_or_higher_pct`, `age_65_plus_pct` y `non_hispanic_white_pct`.
+- **Condiciones económicas y sociales locales.** Monnat y Brown (2017) encuentran, a nivel de condado, que el desempeño electoral de Trump en 2016 respecto de elecciones previas se asoció con indicadores de deterioro económico y social. Esto respalda incluir variables económicas como `median_household_income` y `unemployment_pct`.
+
+Este proyecto no busca replicar esos estudios, sino aportar un ejercicio descriptivo y reproducible que combina resultados electorales oficiales con estimaciones oficiales del Census Bureau en una misma escala geográfica, el estado, para cuatro elecciones consecutivas.
+
+**Referencias**
+- Gelman, A., Park, D., Shor, B., Bafumi, J. y Cortina, J. (2008). *Red State, Blue State, Rich State, Poor State: Why Americans Vote the Way They Do*. Princeton University Press.
+- Monnat, S. M. y Brown, D. L. (2017). More than a rural revolt: Landscapes of despair and the 2016 Presidential election. *Journal of Rural Studies*, 55, 227–236.
+- Pew Research Center (2021, 30 de junio). *Behind Biden's 2020 Victory: An examination of the 2020 electorate, based on validated voters*. https://www.pewresearch.org/politics/2021/06/30/behind-bidens-2020-victory/
+- Pew Research Center (2025, 26 de junio). *Behind Trump's 2024 Victory, a More Racially and Ethnically Diverse Voter Coalition*. https://www.pewresearch.org/politics/2025/06/26/behind-trumps-2024-victory-a-more-racially-and-ethnically-diverse-voter-coalition/
+- Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3), 351–357.
 
 Las variables seleccionadas no deben interpretarse como una explicación completa del voto. La competencia partidaria, las características de los candidatos, las campañas, las reglas electorales, la historia política de cada estado y las decisiones de medición también pueden influir. La existencia de estos factores no incluidos es una razón central para no usar lenguaje causal.
 
