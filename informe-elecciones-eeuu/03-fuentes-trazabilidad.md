@@ -17,12 +17,5 @@
 ## Jerarquía de fuentes
 Los totales electorales se tomarán de compilaciones oficiales, no de agregadores periodísticos. Si aparece una diferencia, la certificación de la oficina electoral del estado de origen es la referencia de mayor autoridad; la diferencia se documentará y no se sobrescribirá sin registro.
 
-## Registro de descargas
-Completar una fila por cada archivo descargado. Un **checksum** o suma de verificación es una huella digital del archivo: permite que otra persona compruebe que usa exactamente el mismo archivo original.
-
-| Ruta del archivo | Dataset / año | URL directa | Fecha de consulta | Publicador | Formato | Checksum SHA-256 | Observaciones |
-|---|---|---|---|---|---|---|---|
-| _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
-
 ## Criterio de cita para el informe final
 Citar autor institucional, título, año o versión cuando esté disponible, URL y fecha de consulta. Registrar la fecha efectiva al descargar el archivo; no copiar una fecha de esta plantilla.
