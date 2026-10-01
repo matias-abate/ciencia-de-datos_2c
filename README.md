@@ -2,6 +2,8 @@
 
 Dataset de análisis de vehículos usados.
 
+> **TP grupal – Elecciones presidenciales de EE. UU.:** el diseño de investigación, los datasets, las fuentes y la declaración de uso de IA están en [`informe-elecciones-eeuu/`](informe-elecciones-eeuu/README.md).
+
 ## Requisitos Previos
 
 Este proyecto utiliza **Git Large File Storage (LFS)** para almacenar archivos CSV grandes. Asegúrate de tener Git LFS instalado antes de clonar el repositorio.
@@ -49,7 +51,8 @@ Si clonaste el repositorio **sin tener Git LFS instalado**, los archivos CSV apa
 
 ```
 ciencia-de-datos_CarsUsed/
-├── cars.csv          # Dataset principal
-├── README.md         # Este archivo
-└── .gitattributes    # Configuración de Git LFS
+├── cars.csv                  # Dataset principal
+├── README.md                 # Este archivo
+├── .gitattributes            # Configuración de Git LFS
+└── informe-elecciones-eeuu/  # TP grupal: elecciones de EE. UU.
 ```
